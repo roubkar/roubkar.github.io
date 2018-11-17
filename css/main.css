@@ -106,18 +106,18 @@
 }
 
 #bubble2 {
-	top: 10vh;
+	top: 20vh;
 	right: 1vw;
     animation-direction: reverse;
 }
 
 #bubble3 {
-	top: 30vh;
+	top: 50vh;
 	left: 10vw;
 }
 
 #bubble4 {
-	top: 30vh;
-	right: 10vw;
+	top: 40vh;
+	right: 20vw;
     animation-direction: reverse;
 }
