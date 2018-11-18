@@ -108,12 +108,13 @@
 #bubble2 {
 	top: 20vh;
 	right: 1vw;
-    animation-direction: reverse;
+    animation-direction: alternate-reverse;
 }
 
 #bubble3 {
 	top: 50vh;
 	left: 10vw;
+    animation-direction: alternate;
 }
 
 #bubble4 {
