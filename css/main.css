@@ -91,7 +91,6 @@
 	transform: translate(0);
 	transition: opacity 0.2s ease-in;
     animation-name: bubble;
-    animation-duration: 5s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 }
@@ -103,22 +102,26 @@
 #bubble1 {
 	top: 10vh;
 	left: 1vw;
+    animation-duration: 5s;
 }
 
 #bubble2 {
 	top: 20vh;
 	right: 1vw;
     animation-direction: alternate-reverse;
+    animation-duration: 3s;
 }
 
 #bubble3 {
 	top: 50vh;
 	left: 10vw;
     animation-direction: alternate;
+    animation-duration: 10s;
 }
 
 #bubble4 {
 	top: 40vh;
 	right: 20vw;
     animation-direction: reverse;
+    animation-duration: 7s;
 }
