@@ -97,14 +97,14 @@
 	width: 30px;
 	height: 30px;
 	left: 25vw;
-	animation: bubbleUp 5s linear infinite, bubbleSideWays 1s ease-in-out infinite alternate;
+	animation: bubbleUp 5s linear infinite, bubbleSideWays 2s ease-in-out infinite alternate;
 }
 
 .bubbling-up_item_5 {
 	width: 80px;
 	height: 80px;
 	left: 35vw;
-	animation: bubbleUp 2s linear infinite, bubbleSideWays 2s ease-in-out infinite alternate;
+	animation: bubbleUp 2s linear infinite, bubbleSideWays 1s ease-in-out infinite alternate;
 }
 
 .bubbling-up_item_6 {
@@ -127,7 +127,7 @@
 	height: 90px;
 	left: unset;
 	right: 35vw;
-	animation: bubbleUp 4s linear infinite, bubbleSideWays 3s ease-in-out infinite alternate;
+	animation: bubbleUp 4s linear infinite, bubbleSideWays 1.5s ease-in-out infinite alternate;
 }
 
 .bubbling-up_item_10 {
@@ -140,7 +140,7 @@
 .bubbling-up_item_11 {
 	left: unset;
 	right: 24vw;
-	animation: bubbleUp 6s linear infinite, bubbleSideWays 2s ease-in-out infinite alternate;
+	animation: bubbleUp 6s linear infinite, bubbleSideWays 3s ease-in-out infinite alternate;
 }
 
 .bubbling-up_item_12 {
@@ -167,7 +167,7 @@
 .bubbling-up_item_15 {
 	left: unset;
 	right: 5vw;
-	animation: bubbleUp 4s linear infinite, bubbleSideWays 2s ease-in-out infinite alternate;
+	animation: bubbleUp 4s linear infinite, bubbleSideWays 1.5s ease-in-out infinite alternate;
 }
 
 @keyframes bubbleUp {
@@ -177,5 +177,5 @@
 
 @keyframes bubbleSideWays {
 	0% {margin-left: 0px;}
-	100% {margin-left: 30px;}
+	100% {margin-left: -50px;}
 }
