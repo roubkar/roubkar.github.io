@@ -117,33 +117,57 @@
 .bubbling-up_item_8 {
 	width: 80px;
 	height: 80px;
-	left: 65vw;
-	animation: bubbleUp 2s linear infinite, bubbleSideWays 1.5s ease-in-out infinite alternate;
+	left: unset;
+	right: 42vw;
+	animation: bubbleUp 6s linear infinite, bubbleSideWays 1.5s ease-in-out infinite alternate;
 }
 
 .bubbling-up_item_9 {
 	width: 90px;
 	height: 90px;
-	left: 70vw;
+	left: unset;
+	right: 35vw;
 	animation: bubbleUp 4s linear infinite, bubbleSideWays 1.5s ease-in-out infinite alternate;
 }
 
 .bubbling-up_item_10 {
 	width: 30px;
 	height: 30px;
-	left: 75vw;
+	left: unset;
+	right: 30vw;
 }
 
 .bubbling-up_item_11 {
-	left: 79vw;
-	animation: bubbleUp 5s linear infinite, bubbleSideWays 1.5s ease-in-out infinite alternate;
+	left: unset;
+	right: 24vw;
+	animation: bubbleUp 6s linear infinite, bubbleSideWays 1.5s ease-in-out infinite alternate;
 }
 
 .bubbling-up_item_12 {
 	width: 30px;
 	height: 30px;
-	left: 80vw;
+	left: unset;
+	right: 17vw;
 	animation: bubbleUp 2s linear infinite, bubbleSideWays 1.5s ease-in-out infinite alternate;
+}
+
+.bubbling-up_item_13 {
+	left: unset;
+	right: 14vw;
+	animation: bubbleUp 5s linear infinite, bubbleSideWays 1.5s ease-in-out infinite alternate;
+}
+
+.bubbling-up_item_14 {
+	width: 30px;
+	height: 30px;
+	left: unset;
+	right: 10vw;
+}
+
+.bubbling-up_item_15 {
+	left: unset;
+	right: 5vw;
+	animation: bubbleUp 4s linear infinite, bubbleSideWays 1.5s ease-in-out infinite alternate;
 }
 
 @keyframes bubbleUp {
@@ -153,5 +177,5 @@
 
 @keyframes bubbleSideWays {
 	0% {transform: translateX(0);}
-	100% {transform: translateX(50px);}
+	100% {transform: translateX(30px);}
 }
