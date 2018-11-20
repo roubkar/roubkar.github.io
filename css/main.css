@@ -85,32 +85,32 @@
 .bubbling-up_item_2 {
 	width: 90px;
 	height: 90px;
-	left: 12vw;
+	left: 7vw;
 	animation: bubbleUp 4s linear infinite, bubbleSideWays 1.5s ease-in-out infinite alternate;
 }
 
 .bubbling-up_item_3 {
-	left: 28vw;
+	left: 18vw;
 }
 
 .bubbling-up_item_4 {
 	width: 30px;
 	height: 30px;
-	left: 32vw;
+	left: 25vw;
 	animation: bubbleUp 5s linear infinite, bubbleSideWays 1.5s ease-in-out infinite alternate;
 }
 
 .bubbling-up_item_5 {
 	width: 80px;
 	height: 80px;
-	left: 40vw;
+	left: 35vw;
 	animation: bubbleUp 2s linear infinite, bubbleSideWays 1.5s ease-in-out infinite alternate;
 }
 
 .bubbling-up_item_6 {
 	width: 30px;
 	height: 30px;
-	left: 45vw;
+	left: 42vw;
 	animation: bubbleUp 4s linear infinite, bubbleSideWays 1.5s ease-in-out infinite alternate;
 }
 
@@ -147,7 +147,7 @@
 }
 
 @keyframes bubbleUp {
-	0% {margin-top: 1000px;}
+	0% {margin-top: 100vh;}
 	100% {margin-top: -100px;}
 }
 
