@@ -1,0 +1,9 @@
+{
+  "short_name": "roubkar",
+  "name": "Ruben Karapetyan",
+  "icons": [],
+  "start_url": "/",
+  "background_color": "#2e7d32",
+  "display": "standalone",
+  "theme_color": "#2e7d32"
+}
