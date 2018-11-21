@@ -1,15 +1,20 @@
 document.addEventListener("DOMContentLoaded", event => {
 	const navbar = document.querySelector("#navbar");
 	let avatar = document.querySelector(".img-container");
-	navbar.hidden = false;
 	document.addEventListener("scroll", event => {
 		requestAnimationFrame(() => {
-			if (window.pageYOffset < 170) {
+			if (window.pageYOffset < 120) {
 				navbar.style.opacity = 0;
 				avatar.classList.remove("scale-out");
+				requestAnimationFrame(() => {
+					navbar.hidden = true;
+				});
 			} else {
-				navbar.style.opacity = 1;
-				avatar.classList.add("scale-out");
+				navbar.hidden = false;
+				requestAnimationFrame(() => {
+					navbar.style.opacity = 1;
+					avatar.classList.add("scale-out");
+				});
 			}
 		});
 	});
